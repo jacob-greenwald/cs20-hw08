@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API Fun!</title>
+</head>
+<body>
+    <h1>Random User Generator</h1>
+    <div class="userDataContainer">
+        <div class="userData">
+            <h2>User 1 Data (Using AJAX)</h2>
+            <div id="name"></div>
+            <div id="age"></div>
+            <div id="location"></div>
+            <div id="phone"></div>
+            <div id="email"></div>
+            <div id="username"></div>
+            <div id="password"></div>
+        </div>
+        <div class="userData">
+            <h2>User 2 Data (Using Fetch)</h2>
+            <div id="nameFetch"></div>
+            <div id="ageFetch"></div>
+            <div id="locationFetch"></div>
+            <div id="phoneFetch"></div>
+            <div id="emailFetch"></div>
+            <div id="usernameFetch"></div>
+            <div id="passwordFetch"></div>
+        </div>
+    </div>
+    
+    <div class="apiInfo">
+        <p>The API used is the RANDOM USER GENERATOR. It generates random user data.</p>
+        <p>The API can be found on <a href="https://randomuser.me/">randomuser.me</a></p>
+        <p>The only options used by the API request were to return the data in the default JSON format.</p>
+        <p>
+            This API could be useful when generating a profile on a suspicious website where you might not want to give your real information. <br>
+            It may also be used to generate characters for a story.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

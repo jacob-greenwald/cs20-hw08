@@ -1,0 +1,10 @@
+.userDataContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 50px; */
+}
+
+.userData {
+    margin: 50px auto;
+}
